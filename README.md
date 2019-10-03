@@ -63,5 +63,11 @@ You can choose type of Database in the install web.
 
 NOTE: If you want to use mysql db you need other container like ```linuxserver/mariadb``` and you must create a db and user with privileges from gitea_app container 
 
+## Changelog
+```
+- Based on latest Alpine arm
+- Gitea v1.9.3
+```
+
 ## Donate
 [![Paypal](https://raw.githubusercontent.com/MephistoXoL/Things/master/paypal.png)](https://www.paypal.me/mephistoxol)
