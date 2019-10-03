@@ -1,6 +1,6 @@
 ![Docker-Gitea](https://raw.githubusercontent.com/MephistoXoL/Docker-Gitea/master/Docker-Gitea.png)
 
-# Docker-Gitea
+# Docker-Gitea 
 Docker Image Gitea for Raspberry pi 3+/3/2
 
 This image is the latest version of Gitea, Dockerfile get and download the last version.
@@ -62,3 +62,6 @@ Ansible:
 You can choose type of Database in the install web.
 
 NOTE: If you want to use mysql db you need other container like ```linuxserver/mariadb``` and you must create a db and user with privileges from gitea_app container 
+
+## Donate
+![paypal.me/mephistoxol](https://raw.githubusercontent.com/MephistoXoL/Things/master/paypal.png)
