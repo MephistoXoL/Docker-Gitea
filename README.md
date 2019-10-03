@@ -24,13 +24,18 @@ services:
     container_name: gitea_app
     image: mephistoxol/gitea
     restart: unless-stopped
+    # Traefik optional
+    labels:
+      - traefik.frontend.rule: "Host:gitea.domain.com"
+      - traefik.port: "3000"
+      - traefik.frontend.redirect.entryPoint: "https"    
     networks:      
       - internal-network
     ports:
       - "3000:3000"
       - "222:22"
     volumes:
-      - ./data/app/data:/data
+      - /your/path/for/data:/data
 ```
 
 Ansible:
