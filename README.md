@@ -1,3 +1,5 @@
+![Docker-Gitea](https://raw.githubusercontent.com/MephistoXoL/Docker-Gitea/master/Docker-Gitea.png)
+
 # Docker-Gitea
 Docker Image Gitea for Raspberry pi 3+/3/2
 
