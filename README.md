@@ -24,7 +24,7 @@ services:
     container_name: gitea_app
     image: mephistoxol/gitea
     restart: unless-stopped
-    # Traefik optional
+    # Traefik v1.7 optional
     labels:
       - traefik.frontend.rule: "Host:gitea.domain.com"
       - traefik.port: "3000"
@@ -48,7 +48,7 @@ Ansible:
         ports:
           - 3000:3000
         restart_policy: unless-stopped
-        # Traefik optional
+        # Traefik v1.7 optional
         labels:
           traefik.frontend.rule: "Host:gitea.domain.com"
           traefik.port: "3000"
