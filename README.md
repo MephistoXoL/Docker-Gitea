@@ -65,6 +65,10 @@ NOTE: If you want to use mysql db you need other container like ```linuxserver/m
 
 ## Changelog
 ```
+12-10-2019
+- Gitea v1.9.4
+```
+```
 - Based on latest Alpine arm
 - Gitea v1.9.3
 ```
