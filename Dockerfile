@@ -1,6 +1,6 @@
-FROM alpine
+FROM alpine:latest
 
-LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amrv6/7" version="amrhf 1.10.0-rc1"
+LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amrv6/7" version="amrhf v1.13.6"
 
 
 EXPOSE 22 3000
@@ -24,8 +24,8 @@ RUN apk --no-cache add \
     jq
 
 ## GET VERSION, URL AND INSTALL
-RUN VERSION=$(curl -sX GET https://api.github.com/repos/go-gitea/gitea/releases | jq -r 'first(.[]) | .tag_name' | sed 's/^.//') && \
-    URL=$(curl -s https://api.github.com/repos/go-gitea/gitea/releases/tags/v$VERSION | jq -r '.assets[].browser_download_url' | grep arm-6 | awk 'NR==1{print $1}') && \
+RUN VERSION=$(curl -sX GET https://api.github.com/repos/go-gitea/gitea/releases/latest | jq -r '.tag_name' | sed 's/^.//') && \
+    URL=$(curl -s https://api.github.com/repos/go-gitea/gitea/releases/latest | jq -r '.assets[].browser_download_url' | grep arm-6 | awk 'NR==1{print $1}') && \
     mkdir -p /app/gitea && \
     curl -SLo /app/gitea/gitea $URL && \
     curl -SL https://github.com/go-gitea/gitea/archive/v$VERSION.tar.gz | tar xz gitea-$VERSION/docker --exclude=gitea-$VERSION/docker/Makefile --strip-components=3 && \
