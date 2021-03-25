@@ -3,7 +3,15 @@
 # Docker-Gitea 
 Docker Image Gitea for Raspberry pi 3+/3/2
 
-This image is the latest version of Gitea, Dockerfile get and download the last version.
+
+[![Docker Pulls](https://img.shields.io/docker/pulls/mephistoxol/gitea?logo=docker)](https://hub.docker.com/r/mephistoxol/gitea)
+[![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/mephistoxol/gitea/latest?logo=linux&logoColor=white)](https://hub.docker.com/r/mephistoxol/gitea)
+[![MicroBadger Layers](https://img.shields.io/microbadger/layers/mephistoxol/gitea/latest)](https://hub.docker.com/r/mephistoxol/gitea)
+[![Docker Image Size (tag)](https://img.shields.io/docker/image-size/mephistoxol/gitea/latest)](https://hub.docker.com/r/mephistoxol/gitea)
+[![Docker Stars](https://img.shields.io/docker/stars/mephistoxol/gitea)](https://hub.docker.com/r/mephistoxol/gitea)
+[![Paypal](https://img.shields.io/badge/paypal-donate-orange?logo=paypal)](https://www.paypal.me/mephistoxol)
+
+This image is the latest version of Gitea, Dockerfile get and download the latest version.
 
 As oficial Gitea this image exports:
 - 3000 for webUI
