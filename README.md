@@ -1,7 +1,7 @@
 ![Docker-Gitea](https://raw.githubusercontent.com/MephistoXoL/Docker-Gitea/master/Docker-Gitea.png)
 
 # Docker-Gitea 
-Docker Image Gitea for Raspberry pi 3+/3/2
+Latest Gitea for Raspberry pi 4/3+/3/2, arm64 & amd64
 
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/mephistoxol/gitea?logo=docker)](https://hub.docker.com/r/mephistoxol/gitea)
