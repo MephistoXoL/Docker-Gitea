@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for arm64" version="arm64 1.10.0-rc1"
+LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for arm64" version="arm64 v1.14.1"
 
 
 EXPOSE 22 3000
