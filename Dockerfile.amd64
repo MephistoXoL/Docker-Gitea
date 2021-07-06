@@ -1,6 +1,6 @@
 FROM alpine
 
-LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amd64" version="amd64 v1.14.3"
+LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amd64" version="amd64 v1.14.4"
 
 
 EXPOSE 22 3000
