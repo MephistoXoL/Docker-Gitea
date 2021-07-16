@@ -73,6 +73,10 @@ NOTE: If you want to use mysql db you need other container like ```linuxserver/m
 
 ## Changelog
 ```
+16-07-2021
+- Gitea v1.14.5
+```
+```
 06-07-2021
 - Gitea v1.14.4
 ```

@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amrv6/7" version="amrhf v1.14.4"
+LABEL maintainer="XoL <MephistoXoL@gmail.com>" description="Gitea lastest version for amrv6/7" version="amrhf v1.14.5"
 
 
 EXPOSE 22 3000
